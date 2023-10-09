@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
- res.("server runing good");
+ res.send({server:" runing good"});
   
 });
 app.use("/register", registerRouter);
