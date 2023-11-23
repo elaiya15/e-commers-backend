@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 });
 app.use("/register", registerRouter);
 
-// app.use("/", auth.authenticateUser);
+
 
 // app.listen(process.env.PORT);
 app.listen(process.env.PORT||5000,()=>{
