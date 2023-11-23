@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
  res.send({server:" runing good"});
   
 });
-app.use("/register", registerRouter);
+app.use("/log", registerRouter);
 
 
 
